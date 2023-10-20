@@ -1,0 +1,1 @@
+tsp -I file test-001.ts  -P pat -r 8810  -a 500/5000 --bitrate 15000 -O file test-001.ts 
