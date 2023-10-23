@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tsduck>
+ <PAT transport_stream_id="1">
+ <service service_id="500" program_map_PID="5000"/> <!-- [1] -->
+ </PAT>
+ <PMT service_id="500" PCR_PID="5000">
+
+ <component elementary_PID="5001" stream_type="0x06">
+ </component>
+ </PMT>
+</tsduck>
